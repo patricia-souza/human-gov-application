@@ -18,7 +18,7 @@ spec:
         image: public.ecr.aws/a5e7a0r4/humangov-app:latest
         env:
         - name: AWS_BUCKET
-          value: "humangov-florida-s3-mlzy"
+          value: "humangov-florida-s3-hgp9"
         - name: AWS_DYNAMODB_TABLE
           value: "humangov-florida-dynamodb"
         - name: AWS_REGION
