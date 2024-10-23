@@ -15,7 +15,7 @@ spec:
       serviceAccountName: humangov-pod-execution-role
       containers:
       - name: humangov-python-app-florida
-        image: public.ecr.aws/a5e7a0r4/humangov-app:latest
+        image: CONTAINER_IMAGE
         env:
         - name: AWS_BUCKET
           value: "humangov-florida-s3-hgp9"
